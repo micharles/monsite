@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>cornouaille</title>
+  <meta charset="utf-8">
+  <meta name="description"content="CHARLES!Je code charles3"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integr>
+  <link rel="stylesheet" type="text/css" href="./images.jpg"/>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<audio autoplay="">
+<source src="veniseetbretagne.mp3" type="audio/mp3";>
+</audio>
+<body>
+<center><br>
+<center>
+<i>Heure atomique à Paris = </i></td>
+              <IFRAME src="https://www.Heure.com/heure-fr.php?timezone=2" WIDTH="50" HEIGHT="15" BORDER="5" MARGINWIDTH="5" MARGINHEIGHT="5" HSPACE="5" VSPACE="5" FRAMEBORDER="5" SCROLLING="blue">
+              </center> 
+              </IFRAME>
+<center>
+<body B class=() onLoad="startClock()"></b>
+<form name="Clock">
+<input type="text" name="Heure" size="55" style="text-align: center;background-color:#FFFFCC;color:#000080">
+</form>
+<script language="JavaScript" type="text/javascript">
+var timerID = null;
+var timerActif = false;
+var tabMois = new Array('Janvier','Fevrier','Mars','Avril','Mai','Juin','Juillet','Août','Septembre','Octobre','Novembre','Decembre');
+var tabJour = new Array('Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi');
+function stopClock() {
+  if (timerActif) clearTimeout(timerID);
+  timerActif = false;}
+function startClock() {
+  stopClock();
+  showtime();}
+function showtime() {
+  var now = new Date();
+  var dayOfWeek = now.getDay();
+  var day = now.getDate();
+  var month = now.getMonth();
+  var year = now.getFullYear();
+  var hour = now.getHours();
+  var min = now.getMinutes();
+  var sec = now.getSeconds();
+var heure = "Nous sommes le " + tabJour[dayOfWeek] + " " + day + " " + tabMois[month] + " " + year + ", il est ";
+  heure += (hour > 9? hour:"0" + hour);
+  heure += ":" + (min > 9? min:"0" + min);
+  heure += ":" + (sec > 9? sec:"0" + sec);
+document.Clock.Heure.value = heure;
+timerID = setTimeout("showtime()",400);timerActif = true;}
+</script></center>
+<font face="bradley hand itc">
+<center><h1> Pays de CORNOUAILLE</h1>
+	<H1>AUDIERNE</H1></center></font>
+	<H4>La ville d'Audierne est une cité balnéaire dont la longue plage est bordée de dunes. C'est le port d'embarquement pour l'ile de Sein (2 kilomètres de long sur 50 à 800 mètres de large), et dont le point culminant est de 8 mètres. A l'ouest de cette plage, la chapelle Saint-Tugen(invoqué contre la rage), de style gothique flamboyant(XVIème siècle, agrandie aux XVIIème et XVIII ème siècle), passe pour être le plus beau monument du cap Sizun. Le port d'Audierne situé dans l'estuaire du Goyen(Gwaien en breton), a été à l'origine de l'essor de la conserverie stoppé net par les crises pétrolières et la concurrence étrangère.</H4>
+<br>
+<img src="images/Baie1.jpg" width="300" height="250" alt="Baie1"/>
+<img src="images/Baie2.jpg" width="300" height="250" alt="Baie2"/>
+<img src="images/Baie3.jpg" width="300" height="250" alt="Baie3"/>
+<img src="images/Baie4.jpg" width="300" height="250" alt="Baie4"/>
+<br>
+<img src="images/Baie5.jpg" width="300" height="250" alt="Baie5"/>
+<img src="images/Baie6.jpg" width="300" height="250" alt="Baie6"/>
+<img src="images/Baie7.jpg" width="300" height="250" alt="Baie7"/>
+<img src="images/Baie8.jpg" width="300" height="250" alt="Baie8"/>
+<br>
+<img src="images/Baie9.jpg" width="300" height="250" alt="Baie9"/>
+<img src="images/Baie10.jpg" width="300" height="250" alt="Baie10"/>
+<img src="images/Baie11.jpg" width="300" height="250" alt="Baie11"/>
+<img src="images/Baie12.jpg" width="300" height="250" alt="Baie12"/>
+<section = id="services">
+	<center>
+<font face="bradley hand itc">
+<a href="index.htm"><font size="5">*Menu Varié*</a>
+</center>
+</font>
+</center>
+</section>
+
+</body>
+
+</html>

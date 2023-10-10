@@ -1,0 +1,69 @@
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="shortcut icon" type="image/x-icon" href="www.autosenzo.fr/favicon.ico" />
+<title>Autos Enzo  Ventes et Achats de V&eacute;hicules d'Occasion NICE</title>
+<style type="text/css">
+<!--
+body {
+	background-color: white;
+}
+.Style1 {
+	color: blue;
+	font-size: 50px;
+	font-family: "Comic Sans MS";
+}
+.Style2 {color: #CCCCCC}
+.Style12 {font-size: 40px; color: #FFFFFF;}
+.Style15 {font-weight: bold; font-size: 36px; color: #FF0000;}
+.Style18 {
+	color: #00FF00;
+	font-weight: bold;
+	font-size: 24px;
+}
+.Style19 {font-size: 18px; color: #CCCCCC; }
+.Style20 {color: #CCCCCC; font-weight: bold; }
+.Style21 {font-size: 18px}
+-->
+</style>
+<script src="Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+<script type="text/javascript">
+<!--
+function convertDate (d, str) {
+
+var jours
+= ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"];
+var mois = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet",
+"août", "septembre", "octobre", "novembre", "décembre"];
+var j = d.getDate();
+var m = d.getMonth() +1;
+var a = d.getFullYear();
+var h = d.getHours();
+var
+i = d.getMinutes();
+var s = d.getSeconds();
+
+str = str.split("a").join(d.getFullYear());
+str = str.split("m").join( ((m<10)? "0":"") + m );
+str
+= str.split("h").join( ((h<10)? "0":"") + h );
+str = str.split("j").join( ((j<10)? "0":"") + j );
+str = str.split("i").join( ((i<10)? "0":"") + i
+);
+str = str.split("s").join( ((s<10)? "0":"") + s );
+str = str.split("w").join(jours[d.getDay()]);
+str = str.split("M").join(mois[d.getMonth()]);
+
+return
+str;
+}
+function changeDate () {
+var d = new Date();
+document.getElementById('divdate').innerHTML = "Nous sommes le " + convertDate(d, "w
+j M a") + " et il est " + convertDate(d, "h:i:s") + " !";setTimeout("changeDate();", 1000);
+}
+
+// -->
+</script>
+</head>

@@ -1,0 +1,82 @@
+*{margin: 0%; padding: 0%;}
+
+#presentation { background-color: red;
+}
+#hero{
+	background:  url('images/fond.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:100%;
+}
+
+  nav{
+	background-color: rgb(0,0,0,0.5);
+	text-align: center;
+	padding:20px;}
+    a{ color:white; text-decoration: none; padding : 20px; transition: 1x;}
+    a:hover{ color: red;}       
+
+#bandeau{margin-top: 1%;
+		margin-bottom: 1%;
+		background-color: rgb(255,255,255,0.5);	}
+
+#contenu{
+	text-align: center;
+	background-color: #C0d9d9;
+	padding: 1%;
+}
+		
+#contenu a{ color: red;
+            border:0.5px solid red;
+            border-radius: 0.5px;
+            padding:2px; 
+            transition: ease 2.5s;}
+
+html{font-family:'pacifico'; font-size:16px;}
+
+#contenu a:hover{ color: #566573;
+                  background-color: rgba(178,32,19,0.8); }
+
+#contenu{text-align: center; padding: 2%;}
+#contenu img:hover{transform: rotate(0deg);}
+#contenu img{transition: 7s;}
+#contenu img:hover{transform: rotate(0deg) scale(0.8);}
+
+#apropos{ display: flex;
+}
+#apropos_image img{	flex:1;  max-width: 100%;
+}
+#apropos_texte{padding: 20px; flex: 2; text-align: justify;
+}
+#apropos_image{ padding: 20px; flex: 1;}
+
+#services{ display: flex; background-color: #566573; color: black; padding: 20px; text-align: center;
+}
+
+.services_item p{ text-align: center; padding: 1px;}
+
+@media screen and (max-width: 414px){
+#apropos{ color : red;
+flex-direction: column;
+}
+#services{ 
+flex-direction: column;
+}
+}
+nav a{
+	display: block;
+    padding: 10px;
+    }
+     
+    @font-face {
+    font-family: 'lunaregular';
+    src: url('luna-webfont.woff2') format('woff2'),
+         url('luna-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+h1{color: black; font-size: 40px}   
+i{color: #566573;}
+p{color: black;}
+.social{ padding: 10px; }
+.var{font-size:"6"; }
+
